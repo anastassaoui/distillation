@@ -104,6 +104,13 @@ def vaporization_pressure(t_v, x1, x2):
 # Call the function and store the results
 results = vaporization_pressure(t_v, x1, x2)
 
+
+
+
+
+
+
+
 # Create a DataFrame with the results
 df_results = pd.DataFrame({
     'Température de vaporisation (°C)': [f"{results['t_v']:.2f}"],
